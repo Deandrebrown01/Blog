@@ -11,7 +11,7 @@ The world of coding and software is a great thing to experience. Look more at my
 <ul>
 {% for post in site.posts %}
 <li>
-<a href="/blog{{ post.url }}">{{post.title}}</a>
+<a href="/Blog{{ post.url }}">{{post.title}}</a>
 </li>
 {% endfor %}
 </ul>
